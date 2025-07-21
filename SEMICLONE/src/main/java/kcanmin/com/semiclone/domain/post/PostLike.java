@@ -2,10 +2,19 @@ package kcanmin.com.semiclone.domain.post;
 
 import jakarta.persistence.*;
 import kcanmin.com.semiclone.domain.user.User;
+import kcanmin.com.semiclone.dto.post.PostLikeId;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Table(name = "tbl_post_like")
 @IdClass(PostLikeId.class)
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+@Getter
 public class PostLike {
   @Id
   @ManyToOne

@@ -1,11 +1,19 @@
 package kcanmin.com.semiclone.domain.category;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "tbl_category")
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+@Getter
 public class Category {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)

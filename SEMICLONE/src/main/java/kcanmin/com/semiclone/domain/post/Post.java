@@ -3,12 +3,20 @@ package kcanmin.com.semiclone.domain.post;
 import jakarta.persistence.*;
 import kcanmin.com.semiclone.domain.category.Category;
 import kcanmin.com.semiclone.domain.user.User;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
 @Entity
 @Table(name = "tbl_post")
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+@Getter
 public class Post {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)

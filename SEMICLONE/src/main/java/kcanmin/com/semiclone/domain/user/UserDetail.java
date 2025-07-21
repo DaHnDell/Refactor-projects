@@ -1,11 +1,19 @@
 package kcanmin.com.semiclone.domain.user;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "tbl_user_detail")
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+@Getter
 public class UserDetail {
   @Id
   private String id;
