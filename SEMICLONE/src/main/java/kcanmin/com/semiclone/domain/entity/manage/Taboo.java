@@ -1,4 +1,4 @@
-package kcanmin.com.semiclone.domain.manage;
+package kcanmin.com.semiclone.domain.entity.manage;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

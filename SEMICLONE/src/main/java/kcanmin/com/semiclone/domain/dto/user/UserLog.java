@@ -1,4 +1,4 @@
-package kcanmin.com.semiclone.dto.user;
+package kcanmin.com.semiclone.domain.dto.user;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.GeneratedValue;
@@ -12,6 +12,8 @@ import java.time.LocalDateTime;
 @Setter
 @Builder
 @ToString
+@AllArgsConstructor
+@NoArgsConstructor
 public class UserLog {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)

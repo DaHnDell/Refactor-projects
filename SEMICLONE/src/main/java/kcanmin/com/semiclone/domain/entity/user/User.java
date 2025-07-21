@@ -1,8 +1,8 @@
-package kcanmin.com.semiclone.domain.user;
+package kcanmin.com.semiclone.domain.entity.user;
 
 import jakarta.persistence.*;
-import kcanmin.com.semiclone.domain.post.Post;
-import kcanmin.com.semiclone.domain.post.PostLike;
+import kcanmin.com.semiclone.domain.entity.post.Post;
+import kcanmin.com.semiclone.domain.entity.post.PostLike;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

@@ -1,9 +1,6 @@
-package kcanmin.com.semiclone.dto.post;
+package kcanmin.com.semiclone.domain.dto.post;
 
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 import java.util.Objects;
 
@@ -11,16 +8,11 @@ import java.util.Objects;
 @Setter
 @Builder
 @ToString
+@AllArgsConstructor
+@NoArgsConstructor
 public class PostLikeId {
   private Long post;
   private String user;
-
-  public PostLikeId() {}
-
-  public PostLikeId(Long post, String user) {
-    this.post = post;
-    this.user = user;
-  }
 
   @Override
   public boolean equals(Object o) {

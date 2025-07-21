@@ -1,4 +1,4 @@
-package kcanmin.com.semiclone.domain.category;
+package kcanmin.com.semiclone.domain.entity.category;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
