@@ -1,5 +1,14 @@
 package kcanmin.com.semiclone.dto.manage;
 
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter
+@Setter
+@Builder
+@ToString
 public class Statistics {
   private String target;
   private int count;

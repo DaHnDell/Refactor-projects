@@ -6,8 +6,6 @@ import lombok.*;
 @Getter
 @Setter
 @Builder
-@NoArgsConstructor
-@AllArgsConstructor
 @ToString
 public class UserSignupRequest {
   private String id;

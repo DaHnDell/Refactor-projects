@@ -1,7 +1,12 @@
 package kcanmin.com.semiclone.dto.user;
 
 import kcanmin.com.semiclone.domain.user.User;
+import lombok.*;
 
+@Getter
+@Setter
+@Builder
+@ToString
 public class UserResponse {
   private final String id;
   private final String nickName;

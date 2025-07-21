@@ -1,7 +1,16 @@
 package kcanmin.com.semiclone.dto.post;
 
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
 import java.util.Objects;
 
+@Getter
+@Setter
+@Builder
+@ToString
 public class PostLikeId {
   private Long post;
   private String user;
